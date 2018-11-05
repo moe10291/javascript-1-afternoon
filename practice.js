@@ -40,7 +40,7 @@ var groceries= ["apples", "milk", "eggs", "bread"];
 //doubleCheck should return the array.
 
 function doubleCheck(groceries){
-  if(groceries.includes('chocolate')){
+  if(groceries === 'chocolate'){ //it can also be written as if(groceries.includes ('chocolate')){ return gorceries}
     return groceries
   }
   else {groceries.push('chocolate')};
